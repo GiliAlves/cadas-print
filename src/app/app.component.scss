@@ -1,0 +1,23 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  button {
+    background-color: #fefefe;
+    padding: 10px;
+    color: #000000;
+    border-radius: 10px;
+    width: 20vw;
+    height: 40px;
+    cursor: pointer;
+    &:hover {
+      background-color: cornsilk;
+      color: darkturquoise;
+    }
+  }
+}
